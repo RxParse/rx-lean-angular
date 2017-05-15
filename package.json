@@ -1,0 +1,26 @@
+{
+  "name": "ng-leancloud",
+  "version": "0.2.0-0",
+  "description": "leancloud sdk for angular2&4",
+  "scripts": {},
+  "keywords": [
+    "leancloud",
+    "angular2",
+    "cloud",
+    "baas"
+  ],
+  "author": "WuJun",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/common": "^4.1.0",
+    "@angular/core": "^4.1.0",
+    "rxjs": "^5.3.1",
+    "zone.js": "^0.8.10"
+  },
+  "dependencies": {
+    "leancloud-typescript-rx-sdk": "^0.1.0"
+  },
+  "main": "./dist/ngLeanCloud.js",
+  "typings": "./dist/ngLeanCloud.d.ts",
+  "types": "./dist/ngLeanCloud.d.ts"
+}
