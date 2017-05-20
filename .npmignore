@@ -1,0 +1,9 @@
+node_modules/
+**/.vs
+**/.vscode
+.idea
+release/
+test/
+out/
+**/.leancloud
+.travis.yml

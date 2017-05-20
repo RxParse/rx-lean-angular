@@ -1,4 +1,4 @@
-import { IWebSocketClient,RxAVClient } from 'leancloud-typescript-rx-sdk';
+import { IWebSocketClient,RxAVClient } from 'rx-lean-js-core';
 
 export class BrowserWebSocketClient implements IWebSocketClient {
     onopen: (event: { target: BrowserWebSocketClient }) => void;

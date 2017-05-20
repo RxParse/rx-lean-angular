@@ -1,4 +1,4 @@
-import { RxAVClient, IStorage } from 'leancloud-typescript-rx-sdk';
+import { RxAVClient, IStorage } from 'rx-lean-js-core';
 
 export class BrowserStorage implements IStorage {
     add(key: string, value: any): Promise<any> {
