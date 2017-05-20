@@ -1,8 +1,10 @@
 {
-  "name": "ng-leancloud",
-  "version": "0.2.0-0",
-  "description": "leancloud sdk for angular2&4",
-  "scripts": {},
+  "name": "rx-lean-angular",
+  "version": "0.2.1",
+  "description": "rx leancloud sdk for angular2&4",
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "keywords": [
     "leancloud",
     "angular2",
@@ -18,9 +20,9 @@
     "zone.js": "^0.8.10"
   },
   "dependencies": {
-    "leancloud-typescript-rx-sdk": "^0.1.0"
+    "rx-lean-js-core": "^0.2.1"
   },
-  "main": "./dist/ngLeanCloud.js",
-  "typings": "./dist/ngLeanCloud.d.ts",
-  "types": "./dist/ngLeanCloud.d.ts"
+  "main": "./dist/RxLeanCloud.Angular.js",
+  "typings": "./dist/RxLeanCloud.Angular.d.ts",
+  "types": "./dist/RxLeanCloud.Angular.d.ts"
 }
