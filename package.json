@@ -2,6 +2,10 @@
   "name": "rx-lean-angular",
   "version": "0.2.1",
   "description": "rx leancloud sdk for angular2&4",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/RxLeanCloud/rx-lean-angular"
+  },
   "scripts": {
     "prepublish": "tsc"
   },
