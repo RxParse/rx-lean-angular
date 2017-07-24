@@ -1,8 +1,8 @@
 {
   "name": "rx-lean-angular",
-  "version": "0.3.10",
+  "version": "0.4.2",
   "description": "rx leancloud sdk for angular2&4",
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/RxLeanCloud/rx-lean-angular"
   },
@@ -24,7 +24,7 @@
     "zone.js": "^0.8.10"
   },
   "dependencies": {
-    "rx-lean-js-core": "^0.3.10"
+    "rx-lean-js-core": "^0.4.1"
   },
   "main": "./dist/RxLeanCloud.Angular.js",
   "typings": "./dist/RxLeanCloud.Angular.d.ts",

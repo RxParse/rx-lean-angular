@@ -1,6 +1,9 @@
-import { IWebSocketClient,RxAVClient } from 'rx-lean-js-core';
+import { IWebSocketClient, RxAVClient } from 'rx-lean-js-core';
 
 export class BrowserWebSocketClient implements IWebSocketClient {
+    newInstance(): IWebSocketClient {
+        return new BrowserWebSocketClient();
+    }
     onopen: (event: { target: BrowserWebSocketClient }) => void;
     onerror: (err: Error) => void;
     onclose: (event: { wasClean: boolean; code: number; reason: string; target: BrowserWebSocketClient }) => void;
