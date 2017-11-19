@@ -1,6 +1,6 @@
 {
   "name": "rx-lean-angular",
-  "version": "0.4.9",
+  "version": "0.5.11",
   "description": "rx leancloud sdk for angular2&4",
   "repository": {
     "type": "git",

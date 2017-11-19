@@ -37,6 +37,11 @@ export class BrowserWebSocketClient implements IWebSocketClient {
         this.wsc.close(code, data);
     }
     send(data: ArrayBuffer | string | Blob) {
-        this.wsc.send(data);
+        try {
+            this.wsc.send(data);
+        }
+        catch (error) {
+            this.readyState = 3;
+        }
     }
 }
